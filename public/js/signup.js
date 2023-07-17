@@ -3,7 +3,8 @@ const signupFormHandler = async (event) => {
   
     const username = document.querySelector('#name-signup').value.trim();
     const password = document.querySelector('#password-signup').value.trim();
-  
+  // grabbing the username and password from signup.handlebars id="name-signup" and id="password-signup"
+  // POST request to /api/users
     if (username && password) {
       const response = await fetch('/api/users', {
         method: 'POST',
@@ -12,7 +13,6 @@ const signupFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        // console.log('response')
         document.location.replace('/dashboard');
       } else {
         alert(response.statusText);

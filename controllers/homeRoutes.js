@@ -1,14 +1,14 @@
 const router = require('express').Router();
 
 router.get('/', async (req, res) => {
-  res.render("home", {
-    layout: "main"
+  res.render('home', {
+    layout: 'main'
   });
 });
 
 router.get('/signup', async (req, res) => {
-  res.render("signup", {
-    layout: "main"
+  res.render('signup', {
+    layout: 'main'
   });
 });
 router.get('/login', async (req, res) => {
