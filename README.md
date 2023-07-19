@@ -17,10 +17,6 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
 In this CMS-style blog site, the homepage includes existing blog posts if any have been posted with navigation links for the homepage and the dashboard and the option to log in.  The user can click on sign up and be prompted to create a username and password.  When the sign-up button is clicked, the user credentials are saved and the user is able to log into the site.  Once the user signs up, they can revisit at a later time and choose to log in and enter their username and password to sign on to the site.  
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -42,7 +38,7 @@ In this CMS-style blog site, the homepage includes existing blog posts if any ha
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./assets/techblog.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
@@ -64,18 +60,6 @@ In order to get started with the project, the user must add the database name an
 
 ## Project Status
 Project is: _in progress_.
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
 
 
 ## Acknowledgements
